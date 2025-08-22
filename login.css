@@ -70,7 +70,7 @@ body::after {
 
 .input-box input {
     width: 100%;
-    padding: 12px 40px 12px 12px;
+    padding: 12px 45px 12px 12px; /* extra padding on right */
     background: rgba(255, 255, 255, 0.2);
     border: none;
     border-radius: 10px;
@@ -79,6 +79,7 @@ body::after {
     font-size: 16px;
     transition: all 0.3s ease;
 }
+
 
 .input-box input:focus {
     background: rgba(255, 255, 255, 0.3);
@@ -96,12 +97,14 @@ body::after {
 
 .input-box i#togglePassword {
     position: absolute;
-    right: 40px; 
+    right: 12px; /* keep it close to right side */
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 }
+
 
 
 .remember-forgot {
